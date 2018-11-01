@@ -69,7 +69,7 @@ const onlyOddChars = (str) => {
   //     odds.push(arr[i]);
   //   }
   //   return (odds.join(' '));
-  // }
+  // } 
   let x = arr.filter((element, index) => {
     return index % 2 !== 0;
   })
@@ -95,7 +95,7 @@ const allHappy = (arr) => {
   return first;
 };
 //returns [false, true, true, false, true]
-//  Not sure what more is's asking for?  This is what I read that it's expecting.
+//  Not sure what more is's asking for?  This is what I read that it's expecting.  Maybe I'll use regex next time.
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -292,7 +292,7 @@ xdescribe('Testing challenge 7', () => {
   });
 });
 
-describe('Testing challenge 8', () => {
+xdescribe('Testing challenge 8', () => {
   test('It should remove Brook from all courses', () => {
     const roster = [
       ['Michelle', 'Allie', 'Brook TESTING'],
